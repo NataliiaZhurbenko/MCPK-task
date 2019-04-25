@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Github repos</title>
+        <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+        <meta content="utf-8" http-equiv="encoding">
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css'
+              integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
+        <link rel="stylesheet" type="text/css" href="style.css">
+
+
+    </head>
+    <body>
+         <div class="find-repo">
+             <form class="find-repo-form" role="search" action="" method="get">
+                 <div class="find-repo-input">
+                     <input id="find-repo" placeholder="Find a repository…" type="search">
+                     <button id="repo-search" class="btn">Search</button>
+                 </div>
+             </form>
+         </div>
+
+        <div class="items-list">
+              <div class="item" id="item0">
+                <div class="repo-name">
+                    <i class='far fa-file-code'></i>
+                    <a href="" target="__blank" class="repo-link"></a>
+                </div>
+                <p class="repo-description"></p>
+                  <p class="repo-data">
+                      <span class="repo-language-color" style="background-color:#f1e05a"></span><span class="repo-language"></span>
+                      <a class="repo-data-link" href="">
+                          <i class='far fa-star'></i>
+                          <span class="repo-star"></span>
+                      </a>
+                      <a class="repo-data-link" href="">
+                          <i class='fas fa-code-branch'></i>
+                          <span class="repo-fork"></span>
+                      </a>
+                      <a class="repo-data-link" href="">
+                          <i class='far fa-calendar-alt'></i>
+                          <span class="repo-last-date"></span>
+                      </a>
+                  </p>
+                </div>
+        </div>
+
+        <div class="load-more">
+            <button id="load-more" class="btn">Load more</button>
+        </div>
+         <script src="index.js"></script>
+    </body>

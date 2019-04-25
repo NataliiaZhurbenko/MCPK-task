@@ -1,0 +1,8 @@
+{
+    "name": "MCPK",
+    "version": "1.0.0",
+    "description": "MCPK Technical task",
+    "dependencies": {
+        "harp": "*"
+    }
+}
